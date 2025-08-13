@@ -1,0 +1,22 @@
+{
+  "opening_mtm": "15:58",
+  "start_time": "15:59",
+  "chart_start_time": "16:00",
+  "users": [
+    {
+      "userId": "CRNG25VR",
+      "ip": "103.108.220.46:8556",
+      "alias": "CRUDE&NG"
+    },
+    {
+      "userId": "GMSM8VR",
+      "ip": "103.108.220.46:8556",
+      "alias": "GOLD&SILVER"
+    },
+    {
+      "userId": "CR-ROLL-STR-4L_10X",
+      "ip": "103.108.220.46:8556",
+      "alias": "CR-ROLL"
+    }
+  ]
+}
