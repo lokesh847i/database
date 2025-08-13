@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+logzero
+requests
+pyngrok
+httpx

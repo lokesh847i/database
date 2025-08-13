@@ -1,0 +1,1103 @@
+[I 250512 08:52:26 main:163] ngrok public url is: https://impala-knowing-subtly.ngrok-free.app
+[I 250512 09:18:00 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'SNSTVWAP_PE', 'STAG': 'SNSTVWAP', 'PRODUCT': 'NRML', 'SYMBOL': 'SENSEX', 'STRIKE': '{{STRIKE}}', 'SL': '61.2', 'TGT': '15.3', 'EXPIRY': 'CW'}]
+[I 250512 09:18:02 main:124] <Response [200]>
+[I 250512 09:18:02 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'SNSTVWAP4_PE', 'STAG': 'SNSTVWAP4', 'PRODUCT': 'NRML', 'SYMBOL': 'SENSEX', 'STRIKE': '{{STRIKE}}', 'SL': '64.95', 'TGT': '16.2375', 'EXPIRY': 'CW'}]
+[I 250512 09:18:03 main:124] <Response [200]>
+[I 250512 09:18:03 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'NFSTVWAP_PE', 'STAG': 'NFSTVWAP', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24450', 'SL': '139.7833333333', 'TGT': '75.45', 'EXPIRY': 'CW'}]
+[I 250512 09:18:08 main:124] <Response [200]>
+[I 250512 09:18:08 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'NFSTVWAPNEW_PE', 'STAG': 'NFSTVWAPNEW', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24450', 'SL': '125.6', 'TGT': '75.6', 'EXPIRY': 'CW'}]
+[I 250512 09:18:10 main:124] <Response [200]>
+[I 250512 09:21:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:123.0344989352,LegTgt:75.45'}]
+[I 250512 09:21:04 main:124] <Response [200]>
+[I 250512 09:24:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:117.9182880423,LegTgt:75.45'}]
+[I 250512 09:24:04 main:124] <Response [200]>
+[I 250512 09:27:01 main:122] webhook_multileg-data=[{'OPT': 'BNTES15SS_L', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'BNTES15SS_S', 'STAG': 'TUXSCALPER15SS', 'PRODUCT': 'NRML', 'SYMBOL': 'BANKNIFTY', 'STRIKE': '55100', 'EXPIRY': 'CW'}]
+[I 250512 09:27:04 main:124] <Response [200]>
+[I 250512 09:27:04 main:122] webhook_multileg-data=[{'OPT': 'BNTES15SB_L', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'BNTES15SB_S', 'STAG': 'TUXSCALPER15SB', 'PRODUCT': 'NRML', 'SYMBOL': 'BANKNIFTY', 'STRIKE': '55200', 'EXPIRY': 'CW'}]
+[I 250512 09:27:08 main:124] <Response [200]>
+[I 250512 09:27:08 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:113.4164949215,LegTgt:75.45'}]
+[I 250512 09:27:09 main:124] <Response [200]>
+[I 250512 09:27:31 main:122] webhook_multileg-data=[{'OPT': 'BNTES15SS_S', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'BNTES15SS_L', 'STAG': 'TUXSCALPER15SS', 'PRODUCT': 'NRML', 'SYMBOL': 'BANKNIFTY', 'STRIKE': '54900', 'EXPIRY': 'CW'}]
+[I 250512 09:27:34 main:124] <Response [200]>
+[I 250512 09:27:34 main:122] webhook_multileg-data=[{'OPT': 'BNTES15SB_S', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'BNTES15SB_L', 'STAG': 'TUXSCALPER15SB', 'PRODUCT': 'NRML', 'SYMBOL': 'BANKNIFTY', 'STRIKE': '54800', 'EXPIRY': 'CW'}]
+[I 250512 09:27:37 main:124] <Response [200]>
+[I 250512 09:28:30 main:122] webhook_multileg-data=[{'OPT': 'SNTES15SS_L', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'SNTES15SS_S', 'STAG': 'TUXSCALPER15SS', 'PRODUCT': 'NRML', 'SYMBOL': 'SENSEX', 'STRIKE': '81400', 'EXPIRY': 'CW'}]
+[I 250512 09:28:33 main:124] <Response [200]>
+[I 250512 09:28:33 main:122] webhook_multileg-data=[{'OPT': 'SNTES15SB_L', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'SNTES15SB_S', 'STAG': 'TUXSCALPER15SB', 'PRODUCT': 'NRML', 'SYMBOL': 'SENSEX', 'STRIKE': '81500', 'EXPIRY': 'CW'}]
+[I 250512 09:28:35 main:124] <Response [200]>
+[I 250512 09:28:35 main:122] webhook_multileg-data=[{'OPT': 'NFTES15SB_L', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'NFTES15SB_S', 'STAG': 'TUXSCALPER15SB', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24650', 'EXPIRY': 'CW'}]
+[I 250512 09:28:38 main:124] <Response [200]>
+[I 250512 09:28:38 main:122] webhook_multileg-data=[{'OPT': 'BNTES15SB_L', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'BNTES15SB_S', 'STAG': 'TUXSCALPER15SB', 'PRODUCT': 'NRML', 'SYMBOL': 'BANKNIFTY', 'STRIKE': '55200', 'EXPIRY': 'CW'}]
+[I 250512 09:28:41 main:124] <Response [200]>
+[I 250512 09:28:41 main:122] webhook_multileg-data=[{'OPT': 'BNTES15SS_L', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'BNTES15SS_S', 'STAG': 'TUXSCALPER15SS', 'PRODUCT': 'NRML', 'SYMBOL': 'BANKNIFTY', 'STRIKE': '55100', 'EXPIRY': 'CW'}]
+[I 250512 09:28:44 main:124] <Response [200]>
+[I 250512 09:28:44 main:122] webhook_multileg-data=[{'OPT': 'NFTES15SS_L', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'NFTES15SS_S', 'STAG': 'TUXSCALPER15SS', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24600', 'EXPIRY': 'CW'}]
+[I 250512 09:28:47 main:124] <Response [200]>
+[I 250512 09:28:47 main:122] webhook_multileg-data=[{'OPT': 'SNTES15SB_S', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'SNTES15SB_L', 'STAG': 'TUXSCALPER15SB', 'PRODUCT': 'NRML', 'SYMBOL': 'SENSEX', 'STRIKE': '81100', 'EXPIRY': 'CW'}]
+[I 250512 09:28:50 main:124] <Response [200]>
+[I 250512 09:28:50 main:122] webhook_multileg-data=[{'OPT': 'SNTES15SS_S', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'SNTES15SS_L', 'STAG': 'TUXSCALPER15SS', 'PRODUCT': 'NRML', 'SYMBOL': 'SENSEX', 'STRIKE': '81200', 'EXPIRY': 'CW'}]
+[I 250512 09:28:52 main:124] <Response [200]>
+[I 250512 09:28:52 main:122] webhook_multileg-data=[{'OPT': 'NFTES15SS_S', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'NFTES15SS_L', 'STAG': 'TUXSCALPER15SS', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24550', 'EXPIRY': 'CW'}]
+[I 250512 09:28:55 main:124] <Response [200]>
+[I 250512 09:28:55 main:122] webhook_multileg-data=[{'OPT': 'NFTES15SB_S', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'NFTES15SB_L', 'STAG': 'TUXSCALPER15SB', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24500', 'EXPIRY': 'CW'}]
+[I 250512 09:28:58 main:124] <Response [200]>
+[I 250512 09:29:46 main:122] webhook_multileg-data=[{'OPT': 'BNTES15SS_S', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'BNTES15SS_L', 'STAG': 'TUXSCALPER15SS', 'PRODUCT': 'NRML', 'SYMBOL': 'BANKNIFTY', 'STRIKE': '54900', 'EXPIRY': 'CW'}]
+[I 250512 09:29:51 main:124] <Response [200]>
+[I 250512 09:29:51 main:122] webhook_multileg-data=[{'OPT': 'BNTES15SB_S', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'BNTES15SB_L', 'STAG': 'TUXSCALPER15SB', 'PRODUCT': 'NRML', 'SYMBOL': 'BANKNIFTY', 'STRIKE': '54800', 'EXPIRY': 'CW'}]
+[I 250512 09:29:54 main:124] <Response [200]>
+[I 250512 09:30:09 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:186.2357056544,LegTgt:121.5375'}]
+[I 250512 09:30:11 main:124] <Response [200]>
+[I 250512 09:30:27 main:122] webhook_multileg-data=[{'OPT': 'SNTES15SB_L', 'TYPE': 'EXIT'}]
+[I 250512 09:30:29 main:124] <Response [200]>
+[I 250512 09:30:29 main:122] webhook_multileg-data=[{'OPT': 'SNTES15SS_L', 'TYPE': 'EXIT'}]
+[I 250512 09:30:30 main:124] <Response [200]>
+[I 250512 09:30:30 main:122] webhook_multileg-data=[{'OPT': 'NFTES15SB_L', 'TYPE': 'EXIT'}]
+[I 250512 09:30:31 main:124] <Response [200]>
+[I 250512 09:30:31 main:122] webhook_multileg-data=[{'OPT': 'BNTES15SB_L', 'TYPE': 'EXIT'}]
+[I 250512 09:30:32 main:124] <Response [200]>
+[I 250512 09:30:32 main:122] webhook_multileg-data=[{'OPT': 'NFTES15SS_L', 'TYPE': 'EXIT'}]
+[I 250512 09:30:34 main:124] <Response [200]>
+[I 250512 09:30:34 main:122] webhook_multileg-data=[{'OPT': 'BNTES15SS_L', 'TYPE': 'EXIT'}]
+[I 250512 09:30:35 main:124] <Response [200]>
+[I 250512 09:33:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:221.7839681383,LegTgt:145.1625'}]
+[I 250512 09:33:02 main:124] <Response [200]>
+[I 250512 09:33:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:181.0787226041,LegTgt:121.5375'}]
+[I 250512 09:33:03 main:124] <Response [200]>
+[I 250512 09:33:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:107.6493333866,LegTgt:75.45'}]
+[I 250512 09:33:04 main:124] <Response [200]>
+[I 250512 09:36:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:214.7795723851,LegTgt:145.1625'}]
+[I 250512 09:36:02 main:124] <Response [200]>
+[I 250512 09:36:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:177.9205467697,LegTgt:121.5375'}]
+[I 250512 09:36:03 main:124] <Response [200]>
+[I 250512 09:36:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:105.3514908558,LegTgt:75.45'}]
+[I 250512 09:36:05 main:124] <Response [200]>
+[I 250512 09:39:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:175.4390782063,LegTgt:121.5375'}]
+[I 250512 09:39:03 main:124] <Response [200]>
+[I 250512 09:39:03 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:211.4584535907,LegTgt:145.1625'}]
+[I 250512 09:39:04 main:124] <Response [200]>
+[I 250512 09:39:04 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:104.138869794,LegTgt:75.45'}]
+[I 250512 09:39:06 main:124] <Response [200]>
+[I 250512 09:42:00 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:173.3919302978,LegTgt:121.5375'}]
+[I 250512 09:42:01 main:124] <Response [200]>
+[I 250512 09:42:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:208.3610640899,LegTgt:145.1625'}]
+[I 250512 09:42:03 main:124] <Response [200]>
+[I 250512 09:42:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:103.2438835937,LegTgt:75.45'}]
+[I 250512 09:42:04 main:124] <Response [200]>
+[I 250512 09:45:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:204.753835463,LegTgt:145.1625'}]
+[I 250512 09:45:03 main:124] <Response [200]>
+[I 250512 09:45:03 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:170.6457474934,LegTgt:121.5375'}]
+[I 250512 09:45:04 main:124] <Response [200]>
+[I 250512 09:45:09 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:102.3382768682,LegTgt:75.45'}]
+[I 250512 09:45:10 main:124] <Response [200]>
+[I 250512 09:48:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:201.4059626837,LegTgt:145.1625'}]
+[I 250512 09:48:02 main:124] <Response [200]>
+[I 250512 09:48:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:168.4453899867,LegTgt:121.5375'}]
+[I 250512 09:48:03 main:124] <Response [200]>
+[I 250512 09:48:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:101.4830054022,LegTgt:75.45'}]
+[I 250512 09:48:04 main:124] <Response [200]>
+[I 250512 09:51:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'EXIT'}]
+[I 250512 09:51:03 main:124] <Response [200]>
+[I 250512 09:51:03 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'EXIT'}]
+[I 250512 09:51:04 main:124] <Response [200]>
+[I 250512 09:51:04 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:100.9028292748,LegTgt:75.45'}]
+[I 250512 09:51:05 main:124] <Response [200]>
+[I 250512 09:51:56 main:122] webhook_multileg-data=[{'OPT': 'GNF5MB_S', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'GNF5MB_L', 'STAG': 'GNF5MB', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24700', 'EXPIRY': 'CW'}]
+[I 250512 09:51:59 main:124] <Response [200]>
+[I 250512 09:51:59 main:122] webhook_multileg-data=[{'OPT': 'GNF5MS_S', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'GNF5MS_L', 'STAG': 'GNF5MS', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24550', 'EXPIRY': 'CW'}]
+[I 250512 09:52:02 main:124] <Response [200]>
+[I 250512 09:54:00 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'SNSTVWAP_PE', 'STAG': 'SNSTVWAP', 'PRODUCT': 'NRML', 'SYMBOL': 'SENSEX', 'STRIKE': '81000', 'SL': '244.4246254528', 'TGT': '132.45', 'EXPIRY': 'CW'}]
+[I 250512 09:54:02 main:124] <Response [200]>
+[I 250512 09:54:02 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'SNSTVWAP4_PE', 'STAG': 'SNSTVWAP4', 'PRODUCT': 'NRML', 'SYMBOL': 'SENSEX', 'STRIKE': '81100', 'SL': '282.91587068', 'TGT': '152.85', 'EXPIRY': 'CW'}]
+[I 250512 09:54:03 main:124] <Response [200]>
+[I 250512 09:54:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:99.3836366598,LegTgt:75.45'}]
+[I 250512 09:54:05 main:124] <Response [200]>
+[I 250512 09:57:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:277.4218292203,LegTgt:152.85'}]
+[I 250512 09:57:02 main:124] <Response [200]>
+[I 250512 09:57:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:239.901172545,LegTgt:132.45'}]
+[I 250512 09:57:04 main:124] <Response [200]>
+[I 250512 09:57:04 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:98.3353190292,LegTgt:75.45'}]
+[I 250512 09:57:05 main:124] <Response [200]>
+[I 250512 10:00:05 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:270.3859903979,LegTgt:152.85'}]
+[I 250512 10:00:06 main:124] <Response [200]>
+[I 250512 10:00:06 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:236.8793959989,LegTgt:132.45'}]
+[I 250512 10:00:07 main:124] <Response [200]>
+[I 250512 10:00:08 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:97.5667383098,LegTgt:75.45'}]
+[I 250512 10:00:10 main:124] <Response [200]>
+[I 250512 10:03:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:267.223129003,LegTgt:152.85'}]
+[I 250512 10:03:03 main:124] <Response [200]>
+[I 250512 10:03:03 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:232.2472343467,LegTgt:132.45'}]
+[I 250512 10:03:04 main:124] <Response [200]>
+[I 250512 10:03:04 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'EXIT'}]
+[I 250512 10:03:05 main:124] <Response [200]>
+[I 250512 10:03:05 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAPNEW_PE', 'TYPE': 'EXIT'}]
+[I 250512 10:03:07 main:124] <Response [200]>
+[I 250512 10:06:00 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:264.902072414,LegTgt:152.85'}]
+[I 250512 10:06:02 main:124] <Response [200]>
+[I 250512 10:06:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:229.5214129268,LegTgt:132.45'}]
+[I 250512 10:06:03 main:124] <Response [200]>
+[I 250512 10:06:03 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'NFSTVWAPNEW_PE', 'STAG': 'NFSTVWAPNEW', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24600', 'SL': '144.5573192772', 'TGT': '100', 'EXPIRY': 'CW'}]
+[I 250512 10:06:04 main:124] <Response [200]>
+[I 250512 10:06:04 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'NFSTVWAP_PE', 'STAG': 'NFSTVWAP', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24600', 'SL': '144.5573192772', 'TGT': '93.75', 'EXPIRY': 'CW'}]
+[I 250512 10:06:06 main:124] <Response [200]>
+[I 250512 10:09:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:263.1791511642,LegTgt:152.85'}]
+[I 250512 10:09:02 main:124] <Response [200]>
+[I 250512 10:09:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:227.6933979481,LegTgt:132.45'}]
+[I 250512 10:09:03 main:124] <Response [200]>
+[I 250512 10:09:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:143.9788550425,LegTgt:93.75'}]
+[I 250512 10:09:05 main:124] <Response [200]>
+[I 250512 10:12:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:261.2566637295,LegTgt:152.85'}]
+[I 250512 10:12:02 main:124] <Response [200]>
+[I 250512 10:12:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:225.1390304136,LegTgt:132.45'}]
+[I 250512 10:12:04 main:124] <Response [200]>
+[I 250512 10:12:04 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:143.4721955195,LegTgt:93.75'}]
+[I 250512 10:12:05 main:124] <Response [200]>
+[I 250512 10:15:00 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:259.8543350777,LegTgt:152.85'}]
+[I 250512 10:15:02 main:124] <Response [200]>
+[I 250512 10:15:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:223.713694545,LegTgt:132.45'}]
+[I 250512 10:15:03 main:124] <Response [200]>
+[I 250512 10:15:08 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:142.9454694363,LegTgt:93.75'}]
+[I 250512 10:15:09 main:124] <Response [200]>
+[I 250512 10:18:00 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:222.1496409465,LegTgt:132.45'}]
+[I 250512 10:18:02 main:124] <Response [200]>
+[I 250512 10:18:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:258.229647057,LegTgt:152.85'}]
+[I 250512 10:18:03 main:124] <Response [200]>
+[I 250512 10:18:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:142.5416443251,LegTgt:93.75'}]
+[I 250512 10:18:05 main:124] <Response [200]>
+[I 250512 10:21:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:257.2872914124,LegTgt:152.85'}]
+[I 250512 10:21:02 main:124] <Response [200]>
+[I 250512 10:21:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:221.3599073318,LegTgt:132.45'}]
+[I 250512 10:21:04 main:124] <Response [200]>
+[I 250512 10:21:04 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:142.2664182649,LegTgt:93.75'}]
+[I 250512 10:21:05 main:124] <Response [200]>
+[I 250512 10:24:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:256.2156362012,LegTgt:152.85'}]
+[I 250512 10:24:02 main:124] <Response [200]>
+[I 250512 10:24:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:220.741907324,LegTgt:132.45'}]
+[I 250512 10:24:04 main:124] <Response [200]>
+[I 250512 10:24:04 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:142.069688725,LegTgt:93.75'}]
+[I 250512 10:24:05 main:124] <Response [200]>
+[I 250512 10:27:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:254.80882111,LegTgt:152.85'}]
+[I 250512 10:27:03 main:124] <Response [200]>
+[I 250512 10:27:03 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:219.6870213552,LegTgt:132.45'}]
+[I 250512 10:27:04 main:124] <Response [200]>
+[I 250512 10:27:04 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:141.7152854521,LegTgt:93.75'}]
+[I 250512 10:27:05 main:124] <Response [200]>
+[I 250512 10:30:05 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:254.1898674958,LegTgt:152.85'}]
+[I 250512 10:30:06 main:124] <Response [200]>
+[I 250512 10:30:06 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:219.1895683671,LegTgt:132.45'}]
+[I 250512 10:30:08 main:124] <Response [200]>
+[I 250512 10:30:14 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:141.4826002903,LegTgt:93.75'}]
+[I 250512 10:30:16 main:124] <Response [200]>
+[I 250512 10:33:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:218.3696474454,LegTgt:132.45'}]
+[I 250512 10:33:02 main:124] <Response [200]>
+[I 250512 10:33:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:253.2474107805,LegTgt:152.85'}]
+[I 250512 10:33:04 main:124] <Response [200]>
+[I 250512 10:33:04 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:141.2856311359,LegTgt:93.75'}]
+[I 250512 10:33:05 main:124] <Response [200]>
+[I 250512 10:36:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:252.2176891553,LegTgt:152.85'}]
+[I 250512 10:36:03 main:124] <Response [200]>
+[I 250512 10:36:03 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:217.4284389785,LegTgt:132.45'}]
+[I 250512 10:36:04 main:124] <Response [200]>
+[I 250512 10:36:04 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:141.0173536498,LegTgt:93.75'}]
+[I 250512 10:36:06 main:124] <Response [200]>
+[I 250512 10:39:00 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:216.8856026749,LegTgt:132.45'}]
+[I 250512 10:39:01 main:124] <Response [200]>
+[I 250512 10:39:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:251.4780334812,LegTgt:152.85'}]
+[I 250512 10:39:03 main:124] <Response [200]>
+[I 250512 10:39:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:140.8312764057,LegTgt:93.75'}]
+[I 250512 10:39:04 main:124] <Response [200]>
+[I 250512 10:42:00 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:216.2205454884,LegTgt:132.45'}]
+[I 250512 10:42:02 main:124] <Response [200]>
+[I 250512 10:42:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:250.8430120407,LegTgt:152.85'}]
+[I 250512 10:42:03 main:124] <Response [200]>
+[I 250512 10:42:03 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'NFSTVWAPNEW_CE', 'STAG': 'NFSTVWAPNEW', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24800', 'EXPIRY': 'CW'}]
+[I 250512 10:42:05 main:124] <Response [200]>
+[I 250512 10:42:05 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:140.6681548742,LegTgt:93.75'}]
+[I 250512 10:42:06 main:124] <Response [200]>
+[I 250512 10:45:03 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:215.0990472262,LegTgt:132.45'}]
+[I 250512 10:45:04 main:124] <Response [200]>
+[I 250512 10:45:04 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:249.5372132278,LegTgt:152.85'}]
+[I 250512 10:45:06 main:124] <Response [200]>
+[I 250512 10:45:08 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:140.3861119074,LegTgt:93.75'}]
+[I 250512 10:45:10 main:124] <Response [200]>
+[I 250512 10:48:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:248.8284177963,LegTgt:152.85'}]
+[I 250512 10:48:03 main:124] <Response [200]>
+[I 250512 10:48:03 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:214.3987661673,LegTgt:132.45'}]
+[I 250512 10:48:04 main:124] <Response [200]>
+[I 250512 10:48:04 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:140.2890712211,LegTgt:93.75'}]
+[I 250512 10:48:06 main:124] <Response [200]>
+[I 250512 10:51:00 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:213.5519614289,LegTgt:132.45'}]
+[I 250512 10:51:02 main:124] <Response [200]>
+[I 250512 10:51:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:248.1676827785,LegTgt:152.85'}]
+[I 250512 10:51:03 main:124] <Response [200]>
+[I 250512 10:51:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:140.1267476959,LegTgt:93.75'}]
+[I 250512 10:51:04 main:124] <Response [200]>
+[I 250512 10:54:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:212.8277105135,LegTgt:132.45'}]
+[I 250512 10:54:02 main:124] <Response [200]>
+[I 250512 10:54:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:247.5597103318,LegTgt:152.85'}]
+[I 250512 10:54:04 main:124] <Response [200]>
+[I 250512 10:54:04 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:140.0381735024,LegTgt:93.75'}]
+[I 250512 10:54:05 main:124] <Response [200]>
+[I 250512 10:57:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:212.1215752794,LegTgt:132.45'}]
+[I 250512 10:57:02 main:124] <Response [200]>
+[I 250512 10:57:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:247.0396985141,LegTgt:152.85'}]
+[I 250512 10:57:03 main:124] <Response [200]>
+[I 250512 10:57:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:139.9751219872,LegTgt:93.75'}]
+[I 250512 10:57:05 main:124] <Response [200]>
+[I 250512 11:00:08 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:211.137689688,LegTgt:132.45'}]
+[I 250512 11:00:09 main:124] <Response [200]>
+[I 250512 11:00:12 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'EXIT'}]
+[I 250512 11:00:14 main:124] <Response [200]>
+[I 250512 11:00:14 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAPNEW_PE', 'TYPE': 'EXIT'}]
+[I 250512 11:00:15 main:124] <Response [200]>
+[I 250512 11:03:00 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:210.706221038,LegTgt:132.45'}]
+[I 250512 11:03:02 main:124] <Response [200]>
+[I 250512 11:03:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:245.7101043104,LegTgt:152.85'}]
+[I 250512 11:03:03 main:124] <Response [200]>
+[I 250512 11:03:03 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'NFSTVWAP_PE', 'STAG': 'NFSTVWAP', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24600', 'SL': '139.8429610243', 'TGT': '100.575', 'EXPIRY': 'CW'}]
+[I 250512 11:03:05 main:124] <Response [200]>
+[I 250512 11:03:05 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'NFSTVWAPNEW_PE', 'STAG': 'NFSTVWAPNEW', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24600', 'EXPIRY': 'CW'}]
+[I 250512 11:03:06 main:124] <Response [200]>
+[I 250512 11:06:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:210.2875352919,LegTgt:132.45'}]
+[I 250512 11:06:02 main:124] <Response [200]>
+[I 250512 11:06:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:245.3497245339,LegTgt:152.85'}]
+[I 250512 11:06:04 main:124] <Response [200]>
+[I 250512 11:06:04 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAPNEW_PE', 'TYPE': 'EXIT'}]
+[I 250512 11:06:05 main:124] <Response [200]>
+[I 250512 11:06:05 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'EXIT'}]
+[I 250512 11:06:07 main:124] <Response [200]>
+[I 250512 11:09:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:209.4643924325,LegTgt:132.45'}]
+[I 250512 11:09:02 main:124] <Response [200]>
+[I 250512 11:09:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:240.6458414092,LegTgt:152.85'}]
+[I 250512 11:09:04 main:124] <Response [200]>
+[I 250512 11:09:04 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'NFSTVWAPNEW_PE', 'STAG': 'NFSTVWAPNEW', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24600', 'EXPIRY': 'CW'}]
+[I 250512 11:09:05 main:124] <Response [200]>
+[I 250512 11:09:05 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'NFSTVWAP_PE', 'STAG': 'NFSTVWAP', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24600', 'SL': '139.6483526191', 'TGT': '96.975', 'EXPIRY': 'CW'}]
+[I 250512 11:09:07 main:124] <Response [200]>
+[I 250512 11:12:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:208.6545704225,LegTgt:132.45'}]
+[I 250512 11:12:03 main:124] <Response [200]>
+[I 250512 11:12:03 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:238.0437572682,LegTgt:152.85'}]
+[I 250512 11:12:04 main:124] <Response [200]>
+[I 250512 11:12:04 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:139.5289930961,LegTgt:96.975'}]
+[I 250512 11:12:06 main:124] <Response [200]>
+[I 250512 11:15:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:208.4918568327,LegTgt:132.45'}]
+[I 250512 11:15:03 main:124] <Response [200]>
+[I 250512 11:15:07 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:139.4618124813,LegTgt:96.975'}]
+[I 250512 11:15:08 main:124] <Response [200]>
+[I 250512 11:18:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:208.2166581201,LegTgt:132.45'}]
+[I 250512 11:18:02 main:124] <Response [200]>
+[I 250512 11:18:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:139.4091334694,LegTgt:96.975'}]
+[I 250512 11:18:04 main:124] <Response [200]>
+[I 250512 11:21:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:207.8787306622,LegTgt:132.45'}]
+[I 250512 11:21:03 main:124] <Response [200]>
+[I 250512 11:21:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:139.3519949863,LegTgt:96.975'}]
+[I 250512 11:21:04 main:124] <Response [200]>
+[I 250512 11:24:00 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:206.2281961542,LegTgt:132.45'}]
+[I 250512 11:24:02 main:124] <Response [200]>
+[I 250512 11:24:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:235.4043841437,LegTgt:152.85'}]
+[I 250512 11:24:03 main:124] <Response [200]>
+[I 250512 11:24:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:139.274035731,LegTgt:96.975'}]
+[I 250512 11:24:04 main:124] <Response [200]>
+[I 250512 11:27:00 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:200.6113765388,LegTgt:132.45'}]
+[I 250512 11:27:02 main:124] <Response [200]>
+[I 250512 11:27:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:229.4204457293,LegTgt:152.85'}]
+[I 250512 11:27:03 main:124] <Response [200]>
+[I 250512 11:27:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:138.9230171523,LegTgt:96.975'}]
+[I 250512 11:27:05 main:124] <Response [200]>
+[I 250512 11:30:15 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:192.9752388849,LegTgt:132.45'}]
+[I 250512 11:30:16 main:124] <Response [200]>
+[I 250512 11:30:16 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:136.0818199331,LegTgt:96.975'}]
+[I 250512 11:30:18 main:124] <Response [200]>
+[I 250512 11:30:18 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:219.9564011564,LegTgt:152.85'}]
+[I 250512 11:30:19 main:124] <Response [200]>
+[I 250512 11:33:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:219.0857610408,LegTgt:152.85'}]
+[I 250512 11:33:03 main:124] <Response [200]>
+[I 250512 11:33:03 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:192.8427149964,LegTgt:132.45'}]
+[I 250512 11:33:04 main:124] <Response [200]>
+[I 250512 12:03:09 main:122] webhook_multileg-data=[{'OPT': 'GNF5MB_L', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'GNF5MB_S', 'STAG': 'GNF5MB', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24600', 'EXPIRY': 'CW'}]
+[I 250512 12:03:12 main:124] <Response [200]>
+[I 250512 12:03:12 main:122] webhook_multileg-data=[{'OPT': 'GNF5MS_L', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'GNF5MS_S', 'STAG': 'GNF5MS', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24750', 'EXPIRY': 'CW'}]
+[I 250512 12:03:15 main:124] <Response [200]>
+[I 250512 12:09:00 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:192.3951735711,LegTgt:132.45'}]
+[I 250512 12:09:02 main:124] <Response [200]>
+[I 250512 12:18:00 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:218.3377826396,LegTgt:152.85'}]
+[I 250512 12:18:02 main:124] <Response [200]>
+[I 250512 12:18:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:191.7756215334,LegTgt:132.45'}]
+[I 250512 12:18:03 main:124] <Response [200]>
+[I 250512 12:24:03 main:130] webhook_multileg1-data=[{'OPT': 'NFSTVWAPNEW_PE', 'TYPE': 'EXIT'}]
+[I 250512 12:24:04 main:132] <Response [200]>
+[I 250512 12:24:04 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'EXIT'}]
+[I 250512 12:24:05 main:124] <Response [200]>
+[I 250512 12:24:05 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAPNEW_PE', 'TYPE': 'EXIT'}]
+[I 250512 12:24:07 main:124] <Response [200]>
+[I 250512 12:27:00 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'EXIT'}]
+[I 250512 12:27:01 main:124] <Response [200]>
+[I 250512 12:27:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'EXIT'}]
+[I 250512 12:27:03 main:124] <Response [200]>
+[I 250512 12:30:29 main:122] webhook_multileg-data=[{'OPT': 'GNF5MB_S', 'TYPE': 'EXIT'}]
+[I 250512 12:30:30 main:124] <Response [200]>
+[I 250512 12:30:30 main:122] webhook_multileg-data=[{'OPT': 'GNF5MB_S', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'GNF5MB_L', 'STAG': 'GNF5MB', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24800', 'EXPIRY': 'CW'}]
+[I 250512 12:30:33 main:124] <Response [200]>
+[I 250512 12:30:33 main:122] webhook_multileg-data=[{'OPT': 'GNF5MS_S', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'GNF5MS_L', 'STAG': 'GNF5MS', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24650', 'EXPIRY': 'CW'}]
+[I 250512 12:30:36 main:124] <Response [200]>
+[I 250512 12:30:36 main:122] webhook_multileg-data=[{'OPT': 'GNF5MS_S', 'TYPE': 'EXIT'}]
+[I 250512 12:30:37 main:124] <Response [200]>
+[I 250512 12:33:03 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'SNSTVWAP_PE', 'STAG': 'SNSTVWAP', 'PRODUCT': 'NRML', 'SYMBOL': 'SENSEX', 'STRIKE': '81400', 'SL': '316.4092429791', 'TGT': '184.3875', 'EXPIRY': 'CW'}]
+[I 250512 12:33:05 main:124] <Response [200]>
+[I 250512 12:33:05 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'SNSTVWAP4_PE', 'STAG': 'SNSTVWAP4', 'PRODUCT': 'NRML', 'SYMBOL': 'SENSEX', 'STRIKE': '81500', 'SL': '355.8069593373', 'TGT': '207.7125', 'EXPIRY': 'CW'}]
+[I 250512 12:33:06 main:124] <Response [200]>
+[I 250512 12:33:06 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'NFSTVWAP_PE', 'STAG': 'NFSTVWAP', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24650', 'SL': '153.2246749728', 'TGT': '100.35', 'EXPIRY': 'CW'}]
+[I 250512 12:33:08 main:124] <Response [200]>
+[I 250512 12:33:08 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'NFSTVWAPNEW_PE', 'STAG': 'NFSTVWAPNEW', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24650', 'EXPIRY': 'CW'}]
+[I 250512 12:33:10 main:124] <Response [200]>
+[I 250512 12:33:10 main:130] webhook_multileg1-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'NFSTVWAPNEW_PE', 'STAG': 'NFSTVWAPNEW', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24650', 'EXPIRY': 'CW'}]
+[I 250512 12:33:34 main:132] <Response [200]>
+[I 250512 12:35:08 main:122] webhook_multileg-data=[{'OPT': 'GNF5MB_L', 'TYPE': 'EXIT'}]
+[I 250512 12:35:09 main:124] <Response [200]>
+[I 250512 12:35:09 main:122] webhook_multileg-data=[{'OPT': 'GNF5MS_L', 'TYPE': 'EXIT'}]
+[I 250512 12:35:11 main:124] <Response [200]>
+[I 250512 12:36:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:323.8168420359,LegTgt:207.7125'}]
+[I 250512 12:36:04 main:124] <Response [200]>
+[I 250512 12:36:04 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:288.7983186812,LegTgt:184.3875'}]
+[I 250512 12:36:05 main:124] <Response [200]>
+[I 250512 12:36:05 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:149.8782271869,LegTgt:100.35'}]
+[I 250512 12:36:07 main:124] <Response [200]>
+[I 250512 12:39:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:285.2909868131,LegTgt:184.3875'}]
+[I 250512 12:39:03 main:124] <Response [200]>
+[I 250512 12:39:03 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:319.8176578323,LegTgt:207.7125'}]
+[I 250512 12:39:05 main:124] <Response [200]>
+[I 250512 12:39:05 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:148.5904044682,LegTgt:100.35'}]
+[I 250512 12:39:06 main:124] <Response [200]>
+[I 250512 12:42:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:312.4058920491,LegTgt:207.7125'}]
+[I 250512 12:42:03 main:124] <Response [200]>
+[I 250512 12:42:03 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:278.3868881318,LegTgt:184.3875'}]
+[I 250512 12:42:05 main:124] <Response [200]>
+[I 250512 12:42:05 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:146.3763640214,LegTgt:100.35'}]
+[I 250512 12:42:06 main:124] <Response [200]>
+[I 250512 12:45:08 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:304.8953028442,LegTgt:207.7125'}]
+[I 250512 12:45:09 main:124] <Response [200]>
+[I 250512 12:45:14 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:271.7781993186,LegTgt:184.3875'}]
+[I 250512 12:45:16 main:124] <Response [200]>
+[I 250512 12:45:16 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:145.5112276192,LegTgt:100.35'}]
+[I 250512 12:45:17 main:124] <Response [200]>
+[I 250512 12:48:00 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:270.4528793867,LegTgt:184.3875'}]
+[I 250512 12:48:02 main:124] <Response [200]>
+[I 250512 12:48:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:304.1232725598,LegTgt:207.7125'}]
+[I 250512 12:48:03 main:124] <Response [200]>
+[I 250512 12:51:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:270.2700914481,LegTgt:184.3875'}]
+[I 250512 12:51:03 main:124] <Response [200]>
+[I 250512 12:54:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:268.1030823033,LegTgt:184.3875'}]
+[I 250512 12:54:03 main:124] <Response [200]>
+[I 250512 12:54:03 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:303.1108507734,LegTgt:207.7125'}]
+[I 250512 12:54:05 main:124] <Response [200]>
+[I 250512 12:57:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:293.4197656961,LegTgt:207.7125'}]
+[I 250512 12:57:04 main:124] <Response [200]>
+[I 250512 12:57:04 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:258.5252740729,LegTgt:184.3875'}]
+[I 250512 12:57:05 main:124] <Response [200]>
+[I 250512 13:00:05 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:279.6102891265,LegTgt:207.7125'}]
+[I 250512 13:00:06 main:124] <Response [200]>
+[I 250512 13:00:06 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:246.5077466656,LegTgt:184.3875'}]
+[I 250512 13:00:08 main:124] <Response [200]>
+[I 250512 13:00:18 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:144.7996327969,LegTgt:100.35'}]
+[I 250512 13:00:19 main:124] <Response [200]>
+[I 250512 13:00:33 main:122] webhook_multileg-data=[{'OPT': 'GNF5MS_S', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'GNF5MS_L', 'STAG': 'GNF5MS', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24750', 'EXPIRY': 'CW'}]
+[I 250512 13:00:36 main:124] <Response [200]>
+[I 250512 13:00:36 main:122] webhook_multileg-data=[{'OPT': 'GNF5MB_S', 'TYPE': 'EXIT'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 1, 'OPT': 'GNF5MB_L', 'STAG': 'GNF5MB', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24900', 'EXPIRY': 'CW'}]
+[I 250512 13:00:38 main:124] <Response [200]>
+[I 250512 13:06:05 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:144.6697025655,LegTgt:100.35'}]
+[I 250512 13:06:06 main:124] <Response [200]>
+[I 250512 13:09:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:144.6027323089,LegTgt:100.35'}]
+[I 250512 13:09:04 main:124] <Response [200]>
+[I 250512 13:18:05 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:142.7802168532,LegTgt:100.35'}]
+[I 250512 13:18:06 main:124] <Response [200]>
+[I 250512 13:21:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:141.6096951679,LegTgt:100.35'}]
+[I 250512 13:21:04 main:124] <Response [200]>
+[I 250512 13:24:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:275.4982563006,LegTgt:207.7125'}]
+[I 250512 13:24:03 main:124] <Response [200]>
+[I 250512 13:24:03 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:244.164959106,LegTgt:184.3875'}]
+[I 250512 13:24:05 main:124] <Response [200]>
+[I 250512 13:24:05 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:139.6262256511,LegTgt:100.35'}]
+[I 250512 13:24:06 main:124] <Response [200]>
+[I 250512 13:27:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:244.1234631954,LegTgt:184.3875'}]
+[I 250512 13:27:03 main:124] <Response [200]>
+[I 250512 13:27:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:139.296103086,LegTgt:100.35'}]
+[I 250512 13:27:05 main:124] <Response [200]>
+[I 250512 13:33:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:238.3995051883,LegTgt:184.3875'}]
+[I 250512 13:33:03 main:124] <Response [200]>
+[I 250512 13:33:03 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:268.4475038431,LegTgt:207.7125'}]
+[I 250512 13:33:04 main:124] <Response [200]>
+[I 250512 13:33:04 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:138.5070934996,LegTgt:100.35'}]
+[I 250512 13:33:05 main:124] <Response [200]>
+[I 250512 13:36:04 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:138.2938841497,LegTgt:100.35'}]
+[I 250512 13:36:05 main:124] <Response [200]>
+[I 250512 13:45:05 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:265.0478047715,LegTgt:207.7125'}]
+[I 250512 13:45:06 main:124] <Response [200]>
+[I 250512 13:45:07 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:235.675240354,LegTgt:184.3875'}]
+[I 250512 13:45:08 main:124] <Response [200]>
+[I 250512 13:45:11 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:137.9495915451,LegTgt:100.35'}]
+[I 250512 13:45:12 main:124] <Response [200]>
+[I 250512 13:48:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:262.0580242943,LegTgt:207.7125'}]
+[I 250512 13:48:03 main:124] <Response [200]>
+[I 250512 13:48:03 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:232.6327163186,LegTgt:184.3875'}]
+[I 250512 13:48:05 main:124] <Response [200]>
+[I 250512 13:48:05 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:134.8371323906,LegTgt:100.35'}]
+[I 250512 13:48:06 main:124] <Response [200]>
+[I 250512 14:03:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:260.7233640156,LegTgt:207.7125'}]
+[I 250512 14:03:02 main:124] <Response [200]>
+[I 250512 14:03:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:231.363260159,LegTgt:184.3875'}]
+[I 250512 14:03:04 main:124] <Response [200]>
+[I 250512 14:03:04 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:134.6832095553,LegTgt:100.35'}]
+[I 250512 14:03:05 main:124] <Response [200]>
+[I 250512 14:15:11 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:132.9245762893,LegTgt:100.35'}]
+[I 250512 14:15:12 main:124] <Response [200]>
+[I 250512 14:18:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:253.8380815175,LegTgt:207.7125'}]
+[I 250512 14:18:03 main:124] <Response [200]>
+[I 250512 14:18:03 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:227.1894816413,LegTgt:184.3875'}]
+[I 250512 14:18:05 main:124] <Response [200]>
+[I 250512 14:18:05 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:128.8621186603,LegTgt:100.35'}]
+[I 250512 14:18:06 main:124] <Response [200]>
+[I 250512 14:21:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:221.8255334772,LegTgt:184.3875'}]
+[I 250512 14:21:04 main:124] <Response [200]>
+[I 250512 14:21:04 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:249.1792733658,LegTgt:207.7125'}]
+[I 250512 14:21:05 main:124] <Response [200]>
+[I 250512 14:27:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:216.9296821165,LegTgt:184.3875'}]
+[I 250512 14:27:02 main:124] <Response [200]>
+[I 250512 14:27:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:245.1394614263,LegTgt:207.7125'}]
+[I 250512 14:27:04 main:124] <Response [200]>
+[I 250512 14:30:17 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:245.0430152837,LegTgt:207.7125'}]
+[I 250512 14:30:18 main:124] <Response [200]>
+[I 250512 14:39:01 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'EXIT'}]
+[I 250512 14:39:02 main:124] <Response [200]>
+[I 250512 14:39:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'EXIT'}]
+[I 250512 14:39:03 main:124] <Response [200]>
+[I 250512 14:42:01 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'SNSTVWAP4_PE', 'STAG': 'SNSTVWAP4', 'PRODUCT': 'NRML', 'SYMBOL': 'SENSEX', 'STRIKE': '81900', 'SL': '372.4123610171', 'TGT': '243.75', 'EXPIRY': 'CW'}]
+[I 250512 14:42:03 main:124] <Response [200]>
+[I 250512 14:42:03 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'SNSTVWAP_PE', 'STAG': 'SNSTVWAP', 'PRODUCT': 'NRML', 'SYMBOL': 'SENSEX', 'STRIKE': '81800', 'SL': '335.1866866918', 'TGT': '234.45', 'EXPIRY': 'CW'}]
+[I 250512 14:42:04 main:124] <Response [200]>
+[I 250512 14:45:00 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:331.4967162203,LegTgt:234.45'}]
+[I 250512 14:45:02 main:124] <Response [200]>
+[I 250512 14:45:03 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:369.7987624238,LegTgt:243.75'}]
+[I 250512 14:45:04 main:124] <Response [200]>
+[I 250512 14:54:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:358.837627807,LegTgt:243.75'}]
+[I 250512 14:54:03 main:124] <Response [200]>
+[I 250512 14:54:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:126.9776212053,LegTgt:100.35'}]
+[I 250512 14:54:05 main:124] <Response [200]>
+[I 250512 14:54:05 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:320.2485361246,LegTgt:234.45'}]
+[I 250512 14:54:06 main:124] <Response [200]>
+[I 250512 14:57:00 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:292.0561825122,LegTgt:234.45'}]
+[I 250512 14:57:02 main:124] <Response [200]>
+[I 250512 14:57:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:327.4298650263,LegTgt:243.75'}]
+[I 250512 14:57:03 main:124] <Response [200]>
+[I 250512 14:57:03 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:118.5698590848,LegTgt:100.35'}]
+[I 250512 14:57:05 main:124] <Response [200]>
+[I 250512 14:57:05 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAPNEW_PE', 'TYPE': 'EXIT'}]
+[I 250512 14:57:06 main:124] <Response [200]>
+[I 250512 14:57:06 main:130] webhook_multileg1-data=[{'OPT': 'NFSTVWAPNEW_PE', 'TYPE': 'EXIT'}]
+[I 250512 14:57:07 main:132] <Response [200]>
+[I 250512 15:00:05 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:320.8693785236,LegTgt:243.75'}]
+[I 250512 15:00:06 main:124] <Response [200]>
+[I 250512 15:00:06 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'EXIT'}]
+[I 250512 15:00:07 main:124] <Response [200]>
+[I 250512 15:00:10 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'MODIFY', 'OPT_FIELD': 'LegSL:116.4903731763,LegTgt:100.35'}]
+[I 250512 15:00:12 main:124] <Response [200]>
+[I 250512 15:03:02 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'SNSTVWAP_PE', 'STAG': 'SNSTVWAP', 'PRODUCT': 'NRML', 'SYMBOL': 'SENSEX', 'STRIKE': '{{STRIKE}}', 'SL': '260.8027578349', 'TGT': '155.475', 'EXPIRY': 'CW'}]
+[I 250512 15:03:03 main:124] <Response [200]>
+[I 250512 15:03:03 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'EXIT'}]
+[I 250512 15:03:04 main:124] <Response [200]>
+[I 250512 15:03:04 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'EXIT'}]
+[I 250512 15:03:06 main:124] <Response [200]>
+[I 250512 15:06:02 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'SNSTVWAP4_PE', 'STAG': 'SNSTVWAP4', 'PRODUCT': 'NRML', 'SYMBOL': 'SENSEX', 'STRIKE': '{{STRIKE}}', 'SL': '289.9996466042', 'TGT': '183.525', 'EXPIRY': 'CW'}]
+[I 250512 15:06:04 main:124] <Response [200]>
+[I 250512 15:06:04 main:122] webhook_multileg-data=[{'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': 100, 'OPT': 'NFSTVWAP_PE', 'STAG': 'NFSTVWAP', 'PRODUCT': 'NRML', 'SYMBOL': 'NIFTY', 'STRIKE': '24850', 'SL': '173.6457634653', 'TGT': '119.8125', 'EXPIRY': 'CW'}]
+[I 250512 15:06:06 main:124] <Response [200]>
+[I 250512 15:18:02 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP_PE', 'TYPE': 'EXIT'}]
+[I 250512 15:18:03 main:124] <Response [200]>
+[I 250512 15:18:03 main:122] webhook_multileg-data=[{'OPT': 'SNSTVWAP4_PE', 'TYPE': 'EXIT'}]
+[I 250512 15:18:05 main:124] <Response [200]>
+[I 250512 15:18:05 main:122] webhook_multileg-data=[{'OPT': 'NFSTVWAP_PE', 'TYPE': 'EXIT'}]
+[I 250512 15:18:07 main:124] <Response [200]>
+[I 250512 15:20:06 main:122] webhook_multileg-data=[{'OPT': 'GNF5MB_L', 'TYPE': 'EXIT'}]
+[I 250512 15:20:07 main:124] <Response [200]>
+[I 250512 15:20:07 main:122] webhook_multileg-data=[{'OPT': 'GNF5MS_L', 'TYPE': 'EXIT'}]
+[I 250512 15:20:08 main:124] <Response [200]>
+[I 250512 16:01:12 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:01:14 main:109] <Response [200]>
+[I 250512 16:01:14 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:01:17 main:94] <Response [200]>
+[I 250512 16:02:07 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 16:02:09 main:94] <Response [200]>
+[I 250512 16:02:09 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 16:02:12 main:109] <Response [200]>
+[I 250512 16:02:12 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 16:02:14 main:94] <Response [200]>
+[I 250512 16:02:14 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 16:02:17 main:109] <Response [200]>
+[I 250512 16:03:10 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR3MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR3MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 16:03:13 main:109] <Response [200]>
+[I 250512 16:03:13 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR3MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR3MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 16:03:15 main:94] <Response [200]>
+[I 250512 16:04:02 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM4MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM4MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 16:04:04 main:109] <Response [200]>
+[I 250512 16:04:04 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM4MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM4MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 16:04:07 main:94] <Response [200]>
+[I 250512 16:05:05 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG5MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG5MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:05:07 main:94] <Response [200]>
+[I 250512 16:05:07 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG5MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG5MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:05:10 main:109] <Response [200]>
+[I 250512 16:05:13 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM5MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM5MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 16:05:15 main:109] <Response [200]>
+[I 250512 16:05:15 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM5MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM5MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 16:05:18 main:94] <Response [200]>
+[I 250512 16:06:12 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG6MLT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG6MLT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:06:14 main:109] <Response [200]>
+[I 250512 16:06:14 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG6MLT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG6MLT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:06:17 main:94] <Response [200]>
+[I 250512 16:06:17 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 16:06:19 main:109] <Response [200]>
+[I 250512 16:06:19 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 16:06:22 main:94] <Response [200]>
+[I 250512 16:06:22 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR6MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR6MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 16:06:24 main:94] <Response [200]>
+[I 250512 16:06:24 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR6MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR6MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 16:06:26 main:109] <Response [200]>
+[I 250512 16:10:05 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:10:08 main:94] <Response [200]>
+[I 250512 16:10:08 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:10:10 main:109] <Response [200]>
+[I 250512 16:12:04 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM12MLT_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM12MLT_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 16:12:06 main:109] <Response [200]>
+[I 250512 16:12:06 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM1MCHAB_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM1MCHAB_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 16:12:09 main:94] <Response [200]>
+[I 250512 16:12:09 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM1MCHAB_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM1MCHAB_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 16:12:11 main:109] <Response [200]>
+[I 250512 16:12:11 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM12MLT_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM12MLT_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 16:12:15 main:94] <Response [200]>
+[I 250512 16:12:15 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR9MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR9MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 16:12:17 main:94] <Response [200]>
+[I 250512 16:12:17 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR9MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR9MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 16:12:20 main:109] <Response [200]>
+[I 250512 16:12:20 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM9MMT_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM9MMT_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 16:12:22 main:94] <Response [200]>
+[I 250512 16:12:22 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM12MLT_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM12MLT_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 16:12:25 main:94] <Response [200]>
+[I 250512 16:12:25 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM9MMT_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM9MMT_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 16:12:27 main:109] <Response [200]>
+[I 250512 16:12:27 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM12MLT_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM12MLT_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 16:12:30 main:109] <Response [200]>
+[I 250512 16:15:07 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM15MMT_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM15MMT_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 16:15:10 main:109] <Response [200]>
+[I 250512 16:15:10 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM15MMT_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM15MMT_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 16:15:12 main:94] <Response [200]>
+[I 250512 16:20:02 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR11MLT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR11MLT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 16:20:05 main:109] <Response [200]>
+[I 250512 16:20:05 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 16:20:07 main:94] <Response [200]>
+[I 250512 16:20:07 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR1MCHAB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR1MCHAB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 16:20:10 main:109] <Response [200]>
+[I 250512 16:20:10 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR1MCHAB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR1MCHAB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 16:20:12 main:94] <Response [200]>
+[I 250512 16:20:12 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 16:20:15 main:109] <Response [200]>
+[I 250512 16:20:15 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM4MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM4MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 16:20:17 main:109] <Response [200]>
+[I 250512 16:20:17 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM4MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM4MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 16:20:19 main:94] <Response [200]>
+[I 250512 16:20:19 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR11MLT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR11MLT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 16:20:22 main:94] <Response [200]>
+[I 250512 16:22:02 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR13MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR13MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 16:22:04 main:109] <Response [200]>
+[I 250512 16:22:04 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR13MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR13MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 16:22:07 main:94] <Response [200]>
+[I 250512 16:23:01 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:23:04 main:109] <Response [200]>
+[I 250512 16:23:04 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:23:06 main:94] <Response [200]>
+[I 250512 16:23:06 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:23:08 main:94] <Response [200]>
+[I 250512 16:23:08 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:23:11 main:109] <Response [200]>
+[I 250512 16:28:01 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM4MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM4MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 16:28:04 main:109] <Response [200]>
+[I 250512 16:28:04 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM4MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM4MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 16:28:06 main:94] <Response [200]>
+[I 250512 16:32:02 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:32:05 main:94] <Response [200]>
+[I 250512 16:32:05 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:32:07 main:109] <Response [200]>
+[I 250512 16:36:02 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG3MCH_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG3MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:36:05 main:94] <Response [200]>
+[I 250512 16:36:05 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:36:07 main:109] <Response [200]>
+[I 250512 16:36:07 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG3MCH_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG3MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:36:10 main:109] <Response [200]>
+[I 250512 16:36:10 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:36:12 main:94] <Response [200]>
+[I 250512 16:36:12 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM4MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM4MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 16:36:15 main:94] <Response [200]>
+[I 250512 16:36:15 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM4MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM4MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 16:36:17 main:109] <Response [200]>
+[I 250512 16:41:01 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHAB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHAB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:41:04 main:109] <Response [200]>
+[I 250512 16:41:04 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHAB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHAB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:41:06 main:94] <Response [200]>
+[I 250512 16:42:05 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG2MCH_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG2MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:42:08 main:94] <Response [200]>
+[I 250512 16:42:08 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG2MCH_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG2MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:42:10 main:109] <Response [200]>
+[I 250512 16:44:02 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG4MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG4MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:44:04 main:109] <Response [200]>
+[I 250512 16:44:04 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG4MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG4MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:44:07 main:94] <Response [200]>
+[I 250512 16:45:08 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG5MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG5MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:45:11 main:109] <Response [200]>
+[I 250512 16:45:11 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG5MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG5MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:45:13 main:94] <Response [200]>
+[I 250512 16:48:00 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG9MOSC_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG9MOSC_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:48:03 main:94] <Response [200]>
+[I 250512 16:48:03 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG9MOSC_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG9MOSC_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:48:06 main:109] <Response [200]>
+[I 250512 16:50:04 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG10MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG10MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 16:50:06 main:94] <Response [200]>
+[I 250512 17:12:03 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG6MLT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG6MLT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 17:12:05 main:109] <Response [200]>
+[I 250512 17:12:05 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG6MLT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG6MLT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 17:12:08 main:94] <Response [200]>
+[I 250512 17:23:00 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 17:23:03 main:94] <Response [200]>
+[I 250512 17:23:03 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 17:23:05 main:109] <Response [200]>
+[I 250512 17:24:00 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM9MMT_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM9MMT_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 17:24:03 main:94] <Response [200]>
+[I 250512 17:24:03 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM9MMT_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM9MMT_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 17:24:05 main:109] <Response [200]>
+[I 250512 17:29:02 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 17:29:04 main:94] <Response [200]>
+[I 250512 17:29:04 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 17:29:07 main:109] <Response [200]>
+[I 250512 17:30:13 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 17:30:15 main:94] <Response [200]>
+[I 250512 17:30:16 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 17:30:18 main:109] <Response [200]>
+[I 250512 17:36:02 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHAB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHAB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 17:36:05 main:94] <Response [200]>
+[I 250512 17:36:05 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHAB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHAB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 17:36:07 main:109] <Response [200]>
+[I 250512 17:40:05 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM13MOSC_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM13MOSC_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 17:40:07 main:109] <Response [200]>
+[I 250512 17:40:07 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM5MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM5MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 17:40:10 main:109] <Response [200]>
+[I 250512 17:40:10 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM5MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM5MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 17:40:12 main:94] <Response [200]>
+[I 250512 17:40:12 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM13MOSC_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM13MOSC_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 17:40:15 main:94] <Response [200]>
+[I 250512 17:45:05 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG5MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG5MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 17:45:08 main:109] <Response [200]>
+[I 250512 17:45:08 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG5MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG5MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 17:45:10 main:94] <Response [200]>
+[I 250512 18:00:09 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 18:00:11 main:94] <Response [200]>
+[I 250512 18:00:11 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 18:00:14 main:94] <Response [200]>
+[I 250512 18:00:14 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 18:00:16 main:109] <Response [200]>
+[I 250512 18:00:16 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 18:00:18 main:109] <Response [200]>
+[I 250512 18:12:04 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR3MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR3MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 18:12:07 main:94] <Response [200]>
+[I 250512 18:12:07 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR3MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR3MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 18:12:09 main:109] <Response [200]>
+[I 250512 18:16:04 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHAB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHAB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 18:16:06 main:94] <Response [200]>
+[I 250512 18:16:06 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHAB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHAB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 18:16:09 main:109] <Response [200]>
+[I 250512 18:20:03 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM5MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM5MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 18:20:05 main:109] <Response [200]>
+[I 250512 18:20:05 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM5MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM5MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 18:20:08 main:94] <Response [200]>
+[I 250512 18:20:08 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR8MOSC_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR8MOSC_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 18:20:10 main:109] <Response [200]>
+[I 250512 18:20:10 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR8MOSC_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR8MOSC_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 18:20:13 main:94] <Response [200]>
+[I 250512 18:21:02 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR1MCHAB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR1MCHAB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 18:21:04 main:109] <Response [200]>
+[I 250512 18:21:04 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR1MCHAB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR1MCHAB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 18:21:07 main:94] <Response [200]>
+[I 250512 18:22:10 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 18:22:13 main:94] <Response [200]>
+[I 250512 18:22:13 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 18:22:15 main:109] <Response [200]>
+[I 250512 18:25:03 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG5MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG5MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 18:25:06 main:94] <Response [200]>
+[I 250512 18:25:06 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG5MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG5MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 18:25:08 main:109] <Response [200]>
+[I 250512 18:25:10 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR5MCH_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR5MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 18:25:13 main:94] <Response [200]>
+[I 250512 18:25:13 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR5MCH_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR5MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 18:25:15 main:109] <Response [200]>
+[I 250512 18:27:01 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM1MCHAB_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM1MCHAB_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 18:27:04 main:94] <Response [200]>
+[I 250512 18:27:04 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM1MCHAB_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM1MCHAB_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 18:27:06 main:109] <Response [200]>
+[I 250512 18:27:11 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR9MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR9MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 18:27:13 main:109] <Response [200]>
+[I 250512 18:27:13 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR9MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR9MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 18:27:16 main:94] <Response [200]>
+[I 250512 18:30:06 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG15MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG15MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 18:30:08 main:94] <Response [200]>
+[I 250512 18:30:08 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG15MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG15MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 18:30:11 main:109] <Response [200]>
+[I 250512 18:30:12 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM15MMT_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM15MMT_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 18:30:15 main:94] <Response [200]>
+[I 250512 18:30:18 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM15MMT_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM15MMT_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 18:30:20 main:109] <Response [200]>
+[I 250512 18:34:02 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG14MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG14MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 18:34:04 main:94] <Response [200]>
+[I 250512 18:34:04 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG14MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG14MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 18:34:07 main:109] <Response [200]>
+[I 250512 18:36:02 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG9MOSC_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 18:36:04 main:109] <Response [200]>
+[I 250512 18:36:04 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG9MOSC_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 18:36:05 main:94] <Response [200]>
+[I 250512 18:36:07 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 18:36:10 main:109] <Response [200]>
+[I 250512 18:36:10 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 18:36:12 main:94] <Response [200]>
+[I 250512 18:38:02 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 18:38:04 main:109] <Response [200]>
+[I 250512 18:38:04 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 18:38:07 main:94] <Response [200]>
+[I 250512 18:42:02 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR6MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR6MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 18:42:05 main:94] <Response [200]>
+[I 250512 18:42:05 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR6MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR6MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 18:42:08 main:109] <Response [200]>
+[I 250512 18:45:11 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR13MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR13MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 18:45:13 main:94] <Response [200]>
+[I 250512 18:45:13 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR13MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR13MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 18:45:16 main:109] <Response [200]>
+[I 250512 19:04:03 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM4MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM4MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 19:04:05 main:94] <Response [200]>
+[I 250512 19:04:05 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM4MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM4MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 19:04:08 main:109] <Response [200]>
+[I 250512 19:05:02 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM5MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM5MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 19:05:04 main:109] <Response [200]>
+[I 250512 19:05:04 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM5MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM5MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 19:05:07 main:94] <Response [200]>
+[I 250512 19:06:04 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 19:06:06 main:94] <Response [200]>
+[I 250512 19:06:06 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 19:06:09 main:94] <Response [200]>
+[I 250512 19:06:09 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 19:06:11 main:109] <Response [200]>
+[I 250512 19:06:11 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 19:06:14 main:109] <Response [200]>
+[I 250512 19:14:03 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 19:14:06 main:109] <Response [200]>
+[I 250512 19:14:06 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 19:14:08 main:94] <Response [200]>
+[I 250512 19:14:08 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 19:14:10 main:109] <Response [200]>
+[I 250512 19:14:10 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 19:14:13 main:94] <Response [200]>
+[I 250512 19:16:03 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM4MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM4MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 19:16:05 main:109] <Response [200]>
+[I 250512 19:16:05 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM4MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM4MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 19:16:08 main:94] <Response [200]>
+[I 250512 19:39:02 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR3MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR3MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 19:39:05 main:109] <Response [200]>
+[I 250512 19:39:05 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR3MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR3MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 19:39:07 main:94] <Response [200]>
+[I 250512 19:40:09 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 19:40:11 main:109] <Response [200]>
+[I 250512 19:40:11 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 19:40:14 main:94] <Response [200]>
+[I 250512 19:44:02 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 19:44:05 main:94] <Response [200]>
+[I 250512 19:44:05 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 19:44:07 main:109] <Response [200]>
+[I 250512 19:48:03 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG2MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG2MCH_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 19:48:06 main:109] <Response [200]>
+[I 250512 19:48:06 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 19:48:08 main:109] <Response [200]>
+[I 250512 19:48:08 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 19:48:10 main:94] <Response [200]>
+[I 250512 19:48:10 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG2MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG2MCH_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 19:48:13 main:94] <Response [200]>
+[I 250512 19:50:05 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM5MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM5MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 19:50:07 main:109] <Response [200]>
+[I 250512 19:50:07 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM5MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM5MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 19:50:09 main:94] <Response [200]>
+[I 250512 20:06:03 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 20:06:05 main:94] <Response [200]>
+[I 250512 20:06:05 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 20:06:08 main:109] <Response [200]>
+[I 250512 20:06:08 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR3MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR3MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 20:06:10 main:109] <Response [200]>
+[I 250512 20:06:10 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR3MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR3MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 20:06:12 main:94] <Response [200]>
+[I 250512 20:07:02 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 20:07:05 main:94] <Response [200]>
+[I 250512 20:07:05 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 20:07:07 main:109] <Response [200]>
+[I 250512 20:24:03 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM4MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM4MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 20:24:06 main:109] <Response [200]>
+[I 250512 20:24:06 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM4MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM4MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 20:24:08 main:94] <Response [200]>
+[I 250512 20:40:05 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 20:40:07 main:94] <Response [200]>
+[I 250512 20:40:07 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 20:40:10 main:109] <Response [200]>
+[I 250512 20:42:00 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG2MCH_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG2MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 20:42:02 main:94] <Response [200]>
+[I 250512 20:42:02 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG2MCH_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG2MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 20:42:05 main:109] <Response [200]>
+[I 250512 20:50:08 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 20:50:10 main:94] <Response [200]>
+[I 250512 20:50:10 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 20:50:12 main:109] <Response [200]>
+[I 250512 20:54:05 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 20:54:07 main:94] <Response [200]>
+[I 250512 20:54:07 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 20:54:09 main:109] <Response [200]>
+[I 250512 20:56:04 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG2MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG2MCH_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 20:56:07 main:109] <Response [200]>
+[I 250512 20:56:07 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG2MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG2MCH_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 20:56:09 main:94] <Response [200]>
+[I 250512 20:57:02 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG3MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG3MCH_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 20:57:04 main:94] <Response [200]>
+[I 250512 20:57:04 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG3MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG3MCH_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 20:57:07 main:109] <Response [200]>
+[I 250512 21:08:03 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 21:08:05 main:109] <Response [200]>
+[I 250512 21:08:05 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 21:08:08 main:94] <Response [200]>
+[I 250512 21:10:06 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM5MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM5MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 21:10:09 main:109] <Response [200]>
+[I 250512 21:10:09 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM5MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'SM5MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 21:10:11 main:94] <Response [200]>
+[I 250512 21:14:05 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 21:14:07 main:109] <Response [200]>
+[I 250512 21:14:07 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 21:14:10 main:94] <Response [200]>
+[I 250512 21:18:04 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG9MOSC_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG9MOSC_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 21:18:06 main:109] <Response [200]>
+[I 250512 21:18:06 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG9MOSC_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG9MOSC_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 21:18:09 main:94] <Response [200]>
+[I 250512 21:20:05 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHAB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHAB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 21:20:07 main:109] <Response [200]>
+[I 250512 21:20:07 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHAB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHAB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 21:20:10 main:94] <Response [200]>
+[I 250512 21:24:03 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG4MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG4MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 21:24:05 main:109] <Response [200]>
+[I 250512 21:24:05 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR3MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR3MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 21:24:07 main:109] <Response [200]>
+[I 250512 21:24:07 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG4MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG4MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 21:24:10 main:94] <Response [200]>
+[I 250512 21:24:10 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR3MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR3MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 21:24:12 main:94] <Response [200]>
+[I 250512 21:27:02 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 21:27:04 main:109] <Response [200]>
+[I 250512 21:27:04 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 21:27:07 main:94] <Response [200]>
+[I 250512 21:29:02 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 21:29:04 main:109] <Response [200]>
+[I 250512 21:29:04 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 21:29:07 main:94] <Response [200]>
+[I 250512 21:30:20 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR3MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR3MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 21:30:22 main:94] <Response [200]>
+[I 250512 21:30:22 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR3MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR3MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 21:30:24 main:109] <Response [200]>
+[I 250512 21:47:01 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR13MCH_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR13MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 21:47:04 main:94] <Response [200]>
+[I 250512 21:47:04 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 21:47:07 main:109] <Response [200]>
+[I 250512 21:47:07 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR13MCH_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR13MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 21:47:09 main:109] <Response [200]>
+[I 250512 21:47:09 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 21:47:12 main:94] <Response [200]>
+[I 250512 21:56:00 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 21:56:03 main:94] <Response [200]>
+[I 250512 21:56:03 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 21:56:05 main:94] <Response [200]>
+[I 250512 21:56:05 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 21:56:07 main:109] <Response [200]>
+[I 250512 21:56:07 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 21:56:10 main:109] <Response [200]>
+[I 250512 21:57:02 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR3MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR3MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 21:57:05 main:109] <Response [200]>
+[I 250512 21:57:05 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR3MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR3MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 21:57:07 main:94] <Response [200]>
+[I 250512 22:11:02 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 22:11:04 main:109] <Response [200]>
+[I 250512 22:11:04 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 22:11:06 main:94] <Response [200]>
+[I 250512 22:15:09 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR1MCHAB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR1MCHAB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 22:15:11 main:94] <Response [200]>
+[I 250512 22:15:11 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR1MCHAB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR1MCHAB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 22:15:13 main:109] <Response [200]>
+[I 250512 22:20:22 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 22:20:25 main:109] <Response [200]>
+[I 250512 22:20:25 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 22:20:27 main:94] <Response [200]>
+[I 250512 22:30:14 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 22:30:17 main:94] <Response [200]>
+[I 250512 22:30:17 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 22:30:19 main:109] <Response [200]>
+[I 250512 22:38:04 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM1MCHAB_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM1MCHAB_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 22:38:07 main:109] <Response [200]>
+[I 250512 22:38:07 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM1MCHAB_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM1MCHAB_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 22:38:09 main:94] <Response [200]>
+[I 250512 22:39:02 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR3MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR3MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 22:39:04 main:109] <Response [200]>
+[I 250512 22:39:04 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR1MCHAB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR1MCHAB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 22:39:07 main:94] <Response [200]>
+[I 250512 22:39:07 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR3MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR3MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 22:39:09 main:94] <Response [200]>
+[I 250512 22:39:09 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR1MCHAB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR1MCHAB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 22:39:11 main:109] <Response [200]>
+[I 250512 22:40:05 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 22:40:08 main:94] <Response [200]>
+[I 250512 22:40:08 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 22:40:10 main:109] <Response [200]>
+[I 250512 22:42:02 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 22:42:04 main:94] <Response [200]>
+[I 250512 22:42:04 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'CR2MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 22:42:07 main:109] <Response [200]>
+[I 250512 22:46:03 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG14MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG14MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 22:46:05 main:94] <Response [200]>
+[I 250512 22:46:05 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG14MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG14MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 22:46:07 main:109] <Response [200]>
+[I 250512 22:48:02 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 22:48:04 main:109] <Response [200]>
+[I 250512 22:48:04 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 22:48:07 main:94] <Response [200]>
+[I 250512 22:52:00 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM4MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM4MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 22:52:02 main:109] <Response [200]>
+[I 250512 22:52:02 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM4MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'GM4MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 22:52:05 main:94] <Response [200]>
+[I 250512 23:05:03 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:05:05 main:109] <Response [200]>
+[I 250512 23:05:05 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:05:07 main:94] <Response [200]>
+[I 250512 23:06:03 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG2MCH_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG2MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:06:06 main:94] <Response [200]>
+[I 250512 23:06:06 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG2MCH_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}, {'MULTILEG': 'YES', 'TYPE': 'ENTRY', 'LOTS': '1', 'OPT': 'NG2MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:06:08 main:109] <Response [200]>
+[I 250512 23:10:07 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG10MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:10:09 main:94] <Response [200]>
+[I 250512 23:12:06 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM12MLT_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 23:12:07 main:94] <Response [200]>
+[I 250512 23:12:07 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM12MLT_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 23:12:08 main:109] <Response [200]>
+[I 250512 23:12:14 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM12MLT_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 23:12:15 main:94] <Response [200]>
+[I 250512 23:12:15 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM12MLT_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 23:12:16 main:109] <Response [200]>
+[I 250512 23:14:03 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG14MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:14:04 main:94] <Response [200]>
+[I 250512 23:14:04 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG2MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:14:05 main:94] <Response [200]>
+[I 250512 23:14:05 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG2MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:14:06 main:109] <Response [200]>
+[I 250512 23:14:06 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG14MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:14:07 main:109] <Response [200]>
+[I 250512 23:14:07 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:14:09 main:109] <Response [200]>
+[I 250512 23:14:09 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:14:10 main:94] <Response [200]>
+[I 250512 23:14:10 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:14:11 main:94] <Response [200]>
+[I 250512 23:14:11 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR2MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:14:12 main:109] <Response [200]>
+[I 250512 23:15:06 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG9MOSC_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:15:07 main:109] <Response [200]>
+[I 250512 23:15:07 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM15MMT_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 23:15:08 main:94] <Response [200]>
+[I 250512 23:15:08 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:15:09 main:94] <Response [200]>
+[I 250512 23:15:09 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG3MCH_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:15:10 main:109] <Response [200]>
+[I 250512 23:15:10 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM15MMT_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 23:15:11 main:109] <Response [200]>
+[I 250512 23:15:11 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG5MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:15:13 main:94] <Response [200]>
+[I 250512 23:15:13 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM5MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 23:15:14 main:109] <Response [200]>
+[I 250512 23:15:14 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM1MCHAB_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 23:15:15 main:94] <Response [200]>
+[I 250512 23:15:15 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG15MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:15:16 main:94] <Response [200]>
+[I 250512 23:15:16 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG9MOSC_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:15:17 main:94] <Response [200]>
+[I 250512 23:15:17 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHAB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:15:18 main:94] <Response [200]>
+[I 250512 23:15:18 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:15:19 main:94] <Response [200]>
+[I 250512 23:15:19 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM1MCHAB_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 23:15:20 main:109] <Response [200]>
+[I 250512 23:15:20 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM9MMT_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 23:15:22 main:94] <Response [200]>
+[I 250512 23:15:22 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM5MST_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 23:15:23 main:94] <Response [200]>
+[I 250512 23:15:23 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:15:24 main:109] <Response [200]>
+[I 250512 23:15:24 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'SM9MMT_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'SILVERM'}]
+[I 250512 23:15:25 main:109] <Response [200]>
+[I 250512 23:15:25 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG5MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:15:26 main:109] <Response [200]>
+[I 250512 23:15:26 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHAB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:15:27 main:109] <Response [200]>
+[I 250512 23:15:27 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG1MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:15:28 main:109] <Response [200]>
+[I 250512 23:15:28 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG15MCHRB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:15:29 main:109] <Response [200]>
+[I 250512 23:15:29 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR1MCHAB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:15:30 main:109] <Response [200]>
+[I 250512 23:15:30 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR5MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:15:32 main:109] <Response [200]>
+[I 250512 23:15:32 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR9MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:15:33 main:109] <Response [200]>
+[I 250512 23:15:33 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR3MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:15:34 main:109] <Response [200]>
+[I 250512 23:15:34 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR1MCHAB_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:15:35 main:94] <Response [200]>
+[I 250512 23:15:35 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR9MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:15:36 main:94] <Response [200]>
+[I 250512 23:15:36 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR3MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:15:37 main:94] <Response [200]>
+[I 250512 23:15:37 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR5MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:15:38 main:94] <Response [200]>
+[I 250512 23:16:05 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM4MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 23:16:06 main:109] <Response [200]>
+[I 250512 23:16:06 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG4MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:16:07 main:94] <Response [200]>
+[I 250512 23:16:07 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM4MST_L', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 23:16:08 main:94] <Response [200]>
+[I 250512 23:16:08 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG4MCHRB_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:16:09 main:109] <Response [200]>
+[I 250512 23:16:09 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR8MOSC_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:16:10 main:109] <Response [200]>
+[I 250512 23:16:10 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR8MOSC_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:16:11 main:94] <Response [200]>
+[I 250512 23:18:04 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR13MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:18:05 main:109] <Response [200]>
+[I 250512 23:18:05 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR11MLT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:18:06 main:109] <Response [200]>
+[I 250512 23:18:06 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR13MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:18:07 main:109] <Response [200]>
+[I 250512 23:18:07 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR6MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:18:09 main:109] <Response [200]>
+[I 250512 23:18:09 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR13MCH_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:18:10 main:94] <Response [200]>
+[I 250512 23:18:10 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR6MMT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:18:11 main:94] <Response [200]>
+[I 250512 23:18:11 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR13MST_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:18:12 main:94] <Response [200]>
+[I 250512 23:18:12 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'CR11MLT_L', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'CRUDEOIL'}]
+[I 250512 23:18:13 main:94] <Response [200]>
+[I 250512 23:18:13 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM13MOSC_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 23:18:14 main:109] <Response [200]>
+[I 250512 23:18:14 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'GM13MOSC_S', 'STAG': 'GMSM8VR', 'PRODUCT': 'NRML', 'SYMBOL': 'GOLDM'}]
+[I 250512 23:18:15 main:94] <Response [200]>
+[I 250512 23:18:15 main:107] webhook4-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG6MLT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:18:16 main:109] <Response [200]>
+[I 250512 23:18:16 main:92] webhook3-data=[{'MULTILEG': 'YES', 'TYPE': 'EXIT', 'LOTS': '1', 'OPT': 'NG6MLT_S', 'STAG': 'CRNG25VR', 'PRODUCT': 'NRML', 'SYMBOL': 'NATURALGAS'}]
+[I 250512 23:18:17 main:94] <Response [200]>
