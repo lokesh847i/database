@@ -1,135 +1,108 @@
-# MTM Dashboard
+# NIFTY CASH OHLC Data Retrieval
 
-## Overview
-The MTM (Mark to Market) Dashboard is a real-time monitoring tool designed to track and display financial trading data for multiple users. It provides a comprehensive view of intraday MTM values, allowing traders and managers to monitor performance metrics in real-time.
+This project provides Python scripts to connect to your MySQL database and retrieve OHLC (Open, High, Low, Close) data from the `nifty_cash` table for specific dates and times.
 
-## Features
-- **Real-time MTM Tracking**: Monitors intraday MTM values for multiple users with automatic updates
-- **Visual Indicators**: Color-coded display (green for positive, red for negative) for quick status assessment
-- **Historical Data**: Tracks maximum and minimum MTM values throughout the session
-- **Interactive Charts**: View MTM performance trends through interactive graphs
-- **User Filtering**: Group users by IP address for better organization
-- **Responsive Design**: Works on both desktop and mobile devices
-- **Column Sorting**: Sort data by any column (ascending or descending)
-- **Persistent Settings**: User preferences and sorting options are saved between sessions
+## Database Configuration
 
-## Project Structure
-The project is organized into multiple modular files for better maintainability:
+- **Host**: 106.51.63.60
+- **User**: mahesh
+- **Password**: mahesh_123
+- **Database**: historicaldb
+- **Table**: nifty_cash
 
-### Core Files
-- `mtm_main.py`: Application entry point
-- `mtm_imports.py`: Central import file for dependencies
-- `mtm_config.py`: Configuration settings and parameters
-- `mtm_server.py`: Web server implementation
-- `mtm_cache.py`: Data caching mechanisms
-- `mtm_background.py`: Background processing tasks
+## Installation
 
-### API Implementation
-- `mtm_api_part1.py` to `mtm_api_part4.py`: API endpoints for MTM data retrieval
-
-### HTML Template Files
-- `mtm_html.py`: Combines all HTML template parts
-- `mtm_html_part1.py` to `mtm_html_part9.py`: Modularized HTML templates
-
-### Optimized Versions
-- `central_dashboard_optimized.py`: Optimized dashboard implementation
-- Various `_optimized` and `_fixed` versions for compatibility and performance
-
-### Command Files
-- `main.cmd`, `main_optimized.cmd`, etc.: Startup scripts
-- `users_MCX.cmd`, `users_NSE.cmd`: Exchange-specific user configurations
-
-## Technical Implementation
-
-### Backend
-The backend server is implemented in Python and provides several API endpoints:
-- `/MTM`: Returns current MTM values for a specific user
-- `/users`: Returns the list of all users being tracked
-- `/history`: Returns historical MTM data for charting
-- `/config`: Returns configuration settings for the frontend
-
-### Frontend
-The frontend is built with HTML, CSS, and vanilla JavaScript:
-- Real-time data fetching with JavaScript Fetch API
-- ChartJS for MTM performance visualization
-- Responsive design for mobile and desktop viewing
-- Client-side sorting and filtering capabilities
-
-### Data Flow
-1. Server continuously updates MTM values in the background
-2. Client periodically polls the server for updated data
-3. UI updates in real-time, highlighting changes with visual cues
-4. Historical data is aggregated for trend analysis and charting
-
-## Setup and Configuration
-
-### Configuration Files
-- `config.ini`: Contains server configuration parameters
-- `users.json`: User definitions and access credentials
-
-### User Setup
-Users can be added via the user configuration files or through API endpoints.
-Each user must have:
-- `userId`: Unique identifier
-- `ip`: IP address (optional, used for grouping)
-- `alias`: Display name (optional)
-
-### Server Configuration
-The server can be configured with different update intervals:
-- `mtm_refresh_interval`: How often the UI refreshes MTM data
-- `chart_update_interval`: How often chart data is updated
-- `opening_mtm`: Time when opening MTM values are recorded
-- `chart_start_time`: Time when chart data collection begins
+1. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 
-### Starting the Server
-To start the dashboard server:
-1. Execute the appropriate command file:
-   ```
-   main.cmd            # Standard version
-   main_optimized.cmd  # Performance optimized version
-   ```
+### Option 1: Interactive Script (`database_ohlc.py`)
 
-2. Access the dashboard in a web browser at:
-   ```
-   http://localhost:8556
-   ```
+Run the interactive script that prompts for date and time inputs:
 
-### User Interface
-The main interface displays:
-- User IDs and aliases
-- Current MTM values
-- Daily maximum and minimum MTM values
-- Interactive chart icons for trend analysis
+```bash
+python database_ohlc.py
+```
 
-### Sorting Data
-Click any column header to sort data:
-- First click: Sort ascending
-- Second click: Sort descending
-- The current sort column is indicated with an arrow
+This script will:
+- Connect to your database
+- Ask for a date (YYYY-MM-DD format)
+- Ask for a time (HH:MM:SS format, optional)
+- Display the OHLC data
+- Provide an option to save data to CSV
 
-### Viewing Charts
-To view MTM performance charts:
-- Hover over the chart icon for a quick preview (desktop only)
-- Click the chart icon to open the full-sized chart in a modal window
+### Option 2: Simple Script (`simple_ohlc.py`)
 
-## Maintenance and Troubleshooting
+Use the simple script for quick data retrieval:
 
-### Common Issues
-- If connections fail, the dashboard will display a "Reconnecting..." indicator
-- Empty MTM values (0,0,0) will hide the corresponding user row
-- Charts are only available after the configured `chart_start_time`
+```python
+from simple_ohlc import get_ohlc_data
 
-### Logs
-Log files are stored in the `logs` directory and contain:
-- Server activity
-- Connection errors
-- Data processing events
+# Get data for entire day
+data = get_ohlc_data("2024-01-15")
 
-## Future Enhancements
-- OAuth-based authentication
-- Multi-exchange support
-- Custom alert thresholds
-- Export functionality for reports
-- Dark mode UI theme
+# Get data for specific time
+data = get_ohlc_data("2024-01-15", "09:15:00")
+```
+
+## Features
+
+- **Date and Time Filtering**: Retrieve data for specific dates and times
+- **OHLC Summary**: Get aggregated OHLC data
+- **CSV Export**: Save retrieved data to CSV files
+- **Error Handling**: Comprehensive error handling for database connections
+- **Data Validation**: Input validation for date and time formats
+
+## Example Output
+
+```
+✅ Successfully connected to the database!
+
+==================================================
+📊 NIFTY CASH OHLC DATA RETRIEVAL
+==================================================
+Enter date (YYYY-MM-DD) or 'quit' to exit: 2024-01-15
+Enter time (HH:MM:SS) or press Enter for entire day: 09:15:00
+
+🔍 Fetching data for date: 2024-01-15 and time: 09:15:00
+✅ Found 5 records for date: 2024-01-15 and time: 09:15:00
+
+📋 Raw Data:
+   id  timestamp    open    high     low   close  volume
+0   1  2024-01-15  18500   18550  18480  18520    1000
+1   2  2024-01-15  18520   18580  18510  18560    1200
+...
+
+📊 OHLC Summary:
+         date     time   open   high    low  close  volume
+0  2024-01-15  09:15:00  18500  18580  18480  18560    2200
+
+💾 Save data to CSV? (y/n): y
+✅ Data saved to nifty_cash_2024-01-15_09-15-00.csv
+```
+
+## Troubleshooting
+
+1. **Connection Error**: Make sure your database server is running and accessible
+2. **Authentication Error**: Verify your username and password
+3. **Table Not Found**: Ensure the `nifty_cash` table exists in your database
+4. **No Data Found**: Check if data exists for the specified date/time
+
+## File Structure
+
+```
+database_chart/
+├── database_ohlc.py      # Interactive OHLC data retrieval
+├── simple_ohlc.py        # Simple function for data retrieval
+├── requirements.txt      # Python dependencies
+└── README.md            # This file
+```
+
+## Dependencies
+
+- `mysql-connector-python`: MySQL database connection
+- `pandas`: Data manipulation and analysis
+- `python-dotenv`: Environment variable management (optional) 
